@@ -1,0 +1,28 @@
+{
+  "career": [
+    {
+      "name": "Youth for Seva",
+      "href": "_",
+      "title": "Student Intern",
+      "logo": "",
+      "start": "Jun 2024",
+      "end": "Aug 2024",
+      "description": [
+        "Volunteered with Youth for Seva in Hyderabad, contributing to community service initiatives and social impact activities aimed at helping underprivileged communities."
+      ]
+    },
+    {
+      "name": "Dragcon",
+      "href": "_",
+      "title": "Video Editor",
+      "logo": "",
+      "start": "Oct 2023",
+      "end": "Nov 2023",
+      "description": [
+        "Worked as a Video Editor for a college gaming club, creating and editing content for events, highlights, and social media posts. Contributed to promoting gaming activities and increasing engagement within the student community."
+      ]
+    }
+
+    
+  ]
+}

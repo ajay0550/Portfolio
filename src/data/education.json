@@ -1,0 +1,15 @@
+{
+  "education": [
+    {
+      "name": "Lovely Professional University",
+      "href": "https://www.digipen.edu.sg",
+      "title": "B.Tech in Computer Science",
+      "logo": "",
+      "start": "Aug 2023",
+      "description": [
+        "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science Engineering at Lovely Professional University (LPU), with a focus on software development and problem-solving."
+      ],
+      "links": []
+    }
+  ]
+}

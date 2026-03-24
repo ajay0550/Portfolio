@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "AnonyMate - PII Redaction Tool",
+      "description": "A tool that detects and redacts sensitive information (PII) from images and PDFs using OCR. Built with a user-friendly interface for secure data handling.",
+      "image": "/pii.png",
+      "tags": [
+        "Python",
+        "OpenCV",
+        "Tesseract OCR",
+        "Tkinter",
+        "JSON"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/yourusername/anonymate",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Hiredly - Job Application Tracker",
+      "description": "A full-stack web application that helps users track job applications, manage statuses, and stay organized during their job search process.",
+      "image": "/hiredly.png",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "REST API"
+      ],
+      "links": []
+    },
+    {
+      "name": "Family Game Night Planner",
+      "description": "A modern web application to plan and organize family game nights with a clean UI and interactive features.",
+      "image": "/game-night.png",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "links": []
+    }
+  ]
+}
