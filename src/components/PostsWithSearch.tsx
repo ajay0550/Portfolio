@@ -3,7 +3,7 @@
 import { PostMetadata } from "@/lib/posts";
 import { Delete } from "lucide-react";
 import { useState } from "react";
-import Posts from "./Posts";
+// import Posts from "./Posts";
 import { Button } from "./ui/Button";
 import { Input } from "./ui/Input";
 

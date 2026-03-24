@@ -1,29 +1,20 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
-import SwipeCards from "@/components/SwipeCards";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
 import {
-  ArrowDown,
-  ArrowDownRight,
   ArrowRightIcon,
   FileDown,
 } from "lucide-react";
 import Link from "next/link";
-import path from "path";
 
-const blogDirectory = path.join(process.cwd(), "content");
-const TED_BIRTH_YEAR = 1997;
-const LIMIT = 2; // max show 2
+const LIMIT = 2;
 
 export default async function Home() {
-  const posts = await getPosts(blogDirectory, LIMIT);
-
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
+      
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <section></section>
 
@@ -33,12 +24,11 @@ export default async function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-          20yo aspiring software engineer
+            20yo aspiring software engineer
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            Backend by trade, full-stack by passion. I build and self-host the
-            lot.
+            Backend by trade, full-stack by passion. I build real-world applications and continuously improve my problem-solving skills.
           </p>
 
           <section className="mt-6 flex flex-wrap items-center gap-4">
@@ -57,7 +47,9 @@ export default async function Home() {
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">
-          <h2 className="title text-2xl sm:text-3xl">featured projects</h2>
+          <h2 className="title text-2xl sm:text-3xl">
+            featured projects
+          </h2>
           <LinkWithIcon
             href="/projects"
             position="right"
@@ -68,7 +60,6 @@ export default async function Home() {
         <Projects limit={LIMIT} />
       </section>
 
-      
     </article>
   );
 }
